@@ -5,7 +5,8 @@
     "scripts": {
         "check": "tsc --noEmit --skipLibCheck",
         "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .eslintignore",
-        "generate": "tsx src/generate.ts"
+        "generate": "tsx src/generate.ts",
+        "convert": "tsx src/convert.ts"
     },
     "devDependencies": {
         "@types/fs-extra": "^11.0.1",
