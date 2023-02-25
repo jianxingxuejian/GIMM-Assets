@@ -1,24 +1,24 @@
-  AbyssHeraldMod = "abyssherald",
-  AbyssLectorElectroMod = "abysslectorelectro",
-  AbyssLectorPyroMod = "abysslectorpyro",
-  AndriusMod = "andrius",
-  AzhdahaMod = "azhdaha",
-  BigSlimeDendroMod = "bigslimedendro",
-  BlackSerpentWindcutterMod = "blackserpentwindcutter",
-  CryoHypostasisMod = "cryohypostasis",
-  DvalinMod = "dvalin",
-  ElectroHypostasisMod = "electrohypostasis",
-  ElectroRegisvineMod = "electroregisvine",
-  FatuiElectroCicinMageMod = "fatuielectrocicinmage",
-  FatuiMirrorMaidenMod = "fatuimirrormaiden",
-  HilichurlMod = "hilichurl",
-  KairagiFieryMod = "kairagifiery",
-  KairagiThunderMod = "kairagithunder",
-  LaSignoraHarbingersMod = "lasignoraharbingers",
-  LawachurlGeoMod = "lawachurlgeo",
-  MagatsuMitakeNarukaminoMikotoMod = "magatsumitakenarukaminomikoto",
-  MitachurlMod = "mitachurl",
-  RuinGuardMod = "ruinguard",
-  RuinHunterMod = "ruinhunter",
-  TartagliaDelusionMod = "tartagliadelusion",
-  TartagliaHarbingersMod = "tartagliaharbingers",
+AbyssHerald
+AbyssLectorElectro
+AbyssLectorPyro
+Andrius
+Azhdaha
+BigSlimeDendro
+BlackSerpentWindcutter
+CryoHypostasis
+Dvalin
+ElectroHypostasis
+ElectroRegisvine
+FatuiElectroCicinMage
+FatuiMirrorMaiden
+Hilichurl
+KairagiFiery
+KairagiThunder
+LaSignoraHarbingers
+LawachurlGeo
+MagatsuMitakeNarukaminoMikoto
+Mitachurl
+RuinGuard
+RuinHunter
+TartagliaDelusion
+TartagliaHarbingers

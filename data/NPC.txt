@@ -1,20 +1,20 @@
-  AsmodayMod = "asmoday",
-  BaizhuMod = "baizhu",
-  BaizhuFaceMod = "baizhuface",
-  BaronBunnyMod = "baronbunny",
-  ChubbyMod = "chubby",
-  DainsleifMod = "dainsleif",
-  DainsleifFaceMod = "dainsleifface",
-  DottoreMod = "dottore",
-  GuobaMod = "guoba",
-  KatheryneMod = "katheryne",
-  LaSignoraMod = "lasignora",
-  LaSignoraFaceMod = "lasignoraface",
-  LoliNahidaMod = "lolinahida",
-  OzMod = "oz",
-  PaimonMod = "paimon",
-  PaimonFaceMod = "paimonface",
-  RexLapisMod = "rexlapis",
-  ScaramoucheMod = "scaramouche",
-  ScaramoucheFaceMod = "scaramoucheface",
-  UshiMod = "ushi",
+Asmoday
+Baizhu
+BaizhuFace
+BaronBunny
+Chubby
+Dainsleif
+DainsleifFace
+Dottore
+Guoba
+Katheryne
+LaSignora
+LaSignoraFace
+LoliNahida
+Oz
+Paimon
+PaimonFace
+RexLapis
+Scaramouche
+ScaramoucheFace
+Ushi

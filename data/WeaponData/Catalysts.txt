@@ -1,7 +1,7 @@
-  FrostbearerMod = "frostbearer",
-  OathswornEyeMod = "oathsworneye",
-  WidsithMod = "widsith",
-  KagurasVerityMod = "kagurasverity",
-  LostPrayerMod = "lostprayer",
-  MemoryOfDustMod = "memoryofdust",
-  Tullaytullah'sRemembranceMod = "tullaytullah'sremembrance",
+Frostbearer
+OathswornEye
+Widsith
+KagurasVerity
+LostPrayer
+MemoryOfDust
+Tullaytullah'sRemembrance

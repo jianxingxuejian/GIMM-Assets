@@ -33,16 +33,12 @@ function getBottomLevelFolders(path: string): string[] {
 }
 
 function writeTxt(arr: string[], fileName: string) {
-    const enumObj: { [key: string]: string } = {}
-    arr.forEach(item => (enumObj[`${item}Mod`] = item.toLowerCase()))
-    const enumString = Object.entries(enumObj)
-        .map(([key, value]) => `  ${key} = "${value}",\n`)
-        .join('')
+    const txt = arr.join('\n')
     const writePath = `${distPath}${fileName}`
     if (!fs.existsSync(distPath)) {
         fs.mkdirSync(distPath)
     }
-    fs.writeFileSync(writePath, enumString)
+    fs.writeFileSync(writePath, txt)
 }
 
 function writeWeaponTxt(path: string) {
@@ -55,12 +51,8 @@ function writeWeaponTxt(path: string) {
         if (!fs.existsSync(`${distPath}${path}`)) {
             fs.mkdirSync(`${distPath}${path}`)
         }
-        const enumObj: { [key: string]: string } = {}
-        weapons.forEach(item => (enumObj[`${item}Mod`] = item.toLowerCase()))
-        const enumString = Object.entries(enumObj)
-            .map(([key, value]) => `  ${key} = "${value}",\n`)
-            .join('')
-        fs.writeFileSync(writePath, enumString)
+        const txt = weapons.join('\n')
+        fs.writeFileSync(writePath, txt)
     }
 }
 

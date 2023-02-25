@@ -1,8 +1,8 @@
-  KairagiFierySwordMod = "kairagifierysword",
-  KairagiThunderSwordMod = "kairagithundersword",
-  LineBreakerMod = "linebreaker",
-  MitaAxeMod = "mitaaxe",
-  PolarStarsMod = "polarstars",
-  RagingTideHarbingersMod = "ragingtideharbingers",
-  StandardBearerMod = "standardbearer",
-  WindcutterMod = "windcutter",
+KairagiFierySword
+KairagiThunderSword
+LineBreaker
+MitaAxe
+PolarStars
+RagingTideHarbingers
+StandardBearer
+Windcutter

@@ -1,28 +1,28 @@
-  WasterGreatswordMod = "wastergreatsword",
-  OldMercsPalMod = "oldmercspal",
-  BloodtaintedGreatswordMod = "bloodtaintedgreatsword",
-  DebateClubMod = "debateclub",
-  FerrousShadowMod = "ferrousshadow",
-  QuartzMod = "quartz",
-  SkyriderGreatswordMod = "skyridergreatsword",
-  WhiteIronGreatswordMod = "whiteirongreatsword",
-  AkuoumaruMod = "akuoumaru",
-  BellMod = "bell",
-  BlackcliffSlasherMod = "blackcliffslasher",
-  FavoniusGreatswordMod = "favoniusgreatsword",
-  KatsuragikiriMod = "katsuragikiri",
-  LithicBladeMod = "lithicblade",
-  PrototypeArchaicMod = "prototypearchaic",
-  RainslasherMod = "rainslasher",
-  RoyalGreatswordMod = "royalgreatsword",
-  SacrificialGreatswordMod = "sacrificialgreatsword",
-  SeaLordMod = "sealord",
-  SerpentSpineMod = "serpentspine",
-  SnowTombedMod = "snowtombed",
-  WhiteblindMod = "whiteblind",
-  RedhornMod = "redhorn",
-  SkywardPrideMod = "skywardpride",
-  SongOfBrokenPinesMod = "songofbrokenpines",
-  UnforgedMod = "unforged",
-  WolfsGravestoneMod = "wolfsgravestone",
-  IttoTaurusClaymoreMod = "ittotaurusclaymore",
+WasterGreatsword
+OldMercsPal
+BloodtaintedGreatsword
+DebateClub
+FerrousShadow
+Quartz
+SkyriderGreatsword
+WhiteIronGreatsword
+Akuoumaru
+Bell
+BlackcliffSlasher
+FavoniusGreatsword
+Katsuragikiri
+LithicBlade
+PrototypeArchaic
+Rainslasher
+RoyalGreatsword
+SacrificialGreatsword
+SeaLord
+SerpentSpine
+SnowTombed
+Whiteblind
+Redhorn
+SkywardPride
+SongOfBrokenPines
+Unforged
+WolfsGravestone
+IttoTaurusClaymore

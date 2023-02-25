@@ -3,24 +3,13 @@ import fs from 'fs-extra'
 const distPath = './dist/'
 const readFile = (path: string) => fs.readFileSync(path, 'utf-8')
 const readDir = (path: string) => fs.readdirSync(path, 'utf-8')
-const parse = (str: string) => {
-    const obj: Record<string, string> = {}
-    str.split('\n').forEach(line => {
-        const [key, value] = line.split('=').map(str => str.trim())
-        if (key && value) {
-            obj[key] = value
-        }
-    })
-    return obj
-}
+const parse = (str: string) => str.split('\n')
 
-const convertToMap = (params: { name: string; data: Record<string, string> }[]) =>
+const convertToSet = (params: { name: string; data: string[] }[]) =>
     params.map(
         ({ name, data }) =>
-            `pub const ${name}: phf::Map<&'static str, &'static str> = phf::phf_map! {
-${Object.entries(data)
-    .map(([key, value]) => `  "${key}" => ${value}`)
-    .join('\n')}
+            `pub const ${name}: phf::Set<&'static str> = phf::phf_set! {
+${data.map(value => `  "${value}",`).join('\n')}
 };`
     )
 
@@ -33,22 +22,23 @@ function convert() {
     const tcgcardData = parse(readFile('../data/TCGCard.txt'))
     const weaponData = readDir('../data/WeaponData')
         .map(file => parse(readFile(`../data/WeaponData/${file}`)))
-        .reduce((obj, item) => ({ ...obj, ...item }), {})
+        .flat()
 
     const firstLine = 'use tauri::utils::assets::phf;'
     const rustContent =
         firstLine +
         '\n\n' +
-        convertToMap([
-            { name: 'CHARACTER_MAP', data: characterData },
-            { name: 'NPC_MAP', data: npcData },
-            { name: 'ENEMY_MAP', data: enemyData },
-            { name: 'WEAPON_MAP', data: weaponData },
-            { name: 'ENTITIES_MAP', data: entitiesData },
-            { name: 'OBJECT_MAP', data: objectData },
-            { name: 'TCGCARD_MAP', data: tcgcardData }
+        convertToSet([
+            { name: 'CHARACTER_SET', data: characterData },
+            { name: 'NPC_SET', data: npcData },
+            { name: 'ENEMY_SET', data: enemyData },
+            { name: 'WEAPON_SET', data: weaponData },
+            { name: 'ENTITIES_SET', data: entitiesData },
+            { name: 'OBJECT_SET', data: objectData },
+            { name: 'TCGCARD_SET', data: tcgcardData }
         ]).join('\n\n')
 
+    fs.mkdirSync(distPath, { recursive: true })
     fs.writeFileSync(`${distPath}constant.rs`, rustContent)
 }
 

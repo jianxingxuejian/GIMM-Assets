@@ -1,12 +1,12 @@
-  RavenBowMod = "ravenbow",
-  RecurveBowMod = "recurvebow",
-  SharpshooterOathMod = "sharpshooteroath",
-  SlingshotMod = "slingshot",
-  FadingTwilightMod = "fadingtwilight",
-  FavoniusWarbowMod = "favoniuswarbow",
-  SacrificialBowMod = "sacrificialbow",
-  TheStringlessMod = "thestringless",
-  AquaSimulacraMod = "aquasimulacra",
-  ElegyForTheEndMod = "elegyfortheend",
-  PolarStarMod = "polarstar",
-  ThunderingPulseMod = "thunderingpulse",
+RavenBow
+RecurveBow
+SharpshooterOath
+Slingshot
+FadingTwilight
+FavoniusWarbow
+SacrificialBow
+TheStringless
+AquaSimulacra
+ElegyForTheEnd
+PolarStar
+ThunderingPulse

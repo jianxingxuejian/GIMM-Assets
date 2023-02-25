@@ -1,34 +1,34 @@
-  DullBladeMod = "dullblade",
-  SilverSwordMod = "silversword",
-  CoolSteelMod = "coolsteel",
-  DarkIronSwordMod = "darkironsword",
-  FilletBladeMod = "filletblade",
-  HarbingerOfDawnMod = "harbingerofdawn",
-  SkyriderSwordMod = "skyridersword",
-  TravelersHandySwordMod = "travelershandysword",
-  AlleyFlashMod = "alleyflash",
-  AmenomaKageuchiMod = "amenomakageuchi",
-  BlackcliffLongswordMod = "blackclifflongsword",
-  BlackSwordMod = "blacksword",
-  CinnabarSpindleMod = "cinnabarspindle",
-  FavoniusSwordMod = "favoniussword",
-  FesteringDesireMod = "festeringdesire",
-  FluteMod = "flute",
-  IronStingMod = "ironsting",
-  KagotsurubeIsshinMod = "kagotsurubeisshin",
-  LionsRoarMod = "lionsroar",
-  PrototypeRancourMod = "prototyperancour",
-  RoyalLongswordMod = "royallongsword",
-  SacrificialSwordMod = "sacrificialsword",
-  SwordOfDescensionMod = "swordofdescension",
-  AquilaFavoniaMod = "aquilafavonia",
-  FreedomSwornMod = "freedomsworn",
-  HaranGeppakuMod = "harangeppaku",
-  JadeCutterMod = "jadecutter",
-  MistsplitterMod = "mistsplitter",
-  SkywardBladeMod = "skywardblade",
-  SummitShaperMod = "summitshaper",
-  AetherSwordMod = "aethersword",
-  AlhaithamswordMod = "alhaithamsword",
-  LumineSwordMod = "luminesword",
-  RaidenEiSwordMod = "raideneisword",
+DullBlade
+SilverSword
+CoolSteel
+DarkIronSword
+FilletBlade
+HarbingerOfDawn
+SkyriderSword
+TravelersHandySword
+AlleyFlash
+AmenomaKageuchi
+BlackcliffLongsword
+BlackSword
+CinnabarSpindle
+FavoniusSword
+FesteringDesire
+Flute
+IronSting
+KagotsurubeIsshin
+LionsRoar
+PrototypeRancour
+RoyalLongsword
+SacrificialSword
+SwordOfDescension
+AquilaFavonia
+FreedomSworn
+HaranGeppaku
+JadeCutter
+Mistsplitter
+SkywardBlade
+SummitShaper
+AetherSword
+Alhaithamsword
+LumineSword
+RaidenEiSword

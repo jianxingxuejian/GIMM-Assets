@@ -1,24 +1,24 @@
-  BeginnersProtectorMod = "beginnersprotector",
-  IronPointMod = "ironpoint",
-  BlackTasselMod = "blacktassel",
-  HalberdMod = "halberd",
-  WhiteTasselMod = "whitetassel",
-  BlackcliffPoleMod = "blackcliffpole",
-  CrescentPikeMod = "crescentpike",
-  DeathmatchMod = "deathmatch",
-  DragonsBaneMod = "dragonsbane",
-  DragonspineSpearMod = "dragonspinespear",
-  FavoniusLanceMod = "favoniuslance",
-  KitainMod = "kitain",
-  LithicSpearMod = "lithicspear",
-  PrototypeStarglitterMod = "prototypestarglitter",
-  RoyalSpearMod = "royalspear",
-  TheCatchMod = "thecatch",
-  WavebreakersFinMod = "wavebreakersfin",
-  CalamityQuellerMod = "calamityqueller",
-  EngulfingLightningMod = "engulfinglightning",
-  JadeWingedSpearMod = "jadewingedspear",
-  SkywardSpineMod = "skywardspine",
-  StaffOfHomaMod = "staffofhoma",
-  VortexVanquisherMod = "vortexvanquisher",
-  MoraxVortexMod = "moraxvortex",
+BeginnersProtector
+IronPoint
+BlackTassel
+Halberd
+WhiteTassel
+BlackcliffPole
+CrescentPike
+Deathmatch
+DragonsBane
+DragonspineSpear
+FavoniusLance
+Kitain
+LithicSpear
+PrototypeStarglitter
+RoyalSpear
+TheCatch
+WavebreakersFin
+CalamityQueller
+EngulfingLightning
+JadeWingedSpear
+SkywardSpine
+StaffOfHoma
+VortexVanquisher
+MoraxVortex

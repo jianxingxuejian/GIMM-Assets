@@ -1,70 +1,70 @@
-  AlbedoMod = "albedo",
-  AloyMod = "aloy",
-  AmberMod = "amber",
-  AmberCNMod = "ambercn",
-  AyakaMod = "ayaka",
-  AyatoMod = "ayato",
-  BarbaraMod = "barbara",
-  BarbaraSummertimeMod = "barbarasummertime",
-  BeidouMod = "beidou",
-  BennettMod = "bennett",
-  CandaceMod = "candace",
-  ChildeMod = "childe",
-  ChongyunMod = "chongyun",
-  ColleiMod = "collei",
-  CynoMod = "cyno",
-  DilucMod = "diluc",
-  DilucFlammeMod = "dilucflamme",
-  DionaMod = "diona",
-  DoriMod = "dori",
-  EulaMod = "eula",
-  FischlMod = "fischl",
-  FischlHighnessMod = "fischlhighness",
-  GanyuMod = "ganyu",
-  GorouMod = "gorou",
-  HeizouMod = "heizou",
-  HuTaoMod = "hutao",
-  IttoMod = "itto",
-  JeanMod = "jean",
-  JeanCNMod = "jeancn",
-  JeanSeaMod = "jeansea",
-  KaeyaMod = "kaeya",
-  KazuhaMod = "kazuha",
-  KeqingMod = "keqing",
-  KeqingOpulentMod = "keqingopulent",
-  KleeMod = "klee",
-  KokomiMod = "kokomi",
-  KujouSaraMod = "kujousara",
-  LaylaMod = "layla",
-  LisaMod = "lisa",
-  MonaMod = "mona",
-  MonaCNMod = "monacn",
-  NahidaMod = "nahida",
-  NilouMod = "nilou",
-  NingguangMod = "ningguang",
-  NingguangOrchidMod = "ningguangorchid",
-  NoelleMod = "noelle",
-  QiqiMod = "qiqi",
-  RaidenShogunMod = "raidenshogun",
-  RazorMod = "razor",
-  RosariaMod = "rosaria",
-  RosariaCNMod = "rosariacn",
-  SayuMod = "sayu",
-  ShenheMod = "shenhe",
-  ShinobuMod = "shinobu",
-  SucroseMod = "sucrose",
-  ThomaMod = "thoma",
-  TighnariMod = "tighnari",
-  TravelerBoyMod = "travelerboy",
-  TravelerGirlMod = "travelergirl",
-  VentiMod = "venti",
-  XianglingMod = "xiangling",
-  XiaoMod = "xiao",
-  XingqiuMod = "xingqiu",
-  XinyanMod = "xinyan",
-  YaeMod = "yae",
-  YanfeiMod = "yanfei",
-  YelanMod = "yelan",
-  YoimiyaMod = "yoimiya",
-  YunJinMod = "yunjin",
-  ZhongliMod = "zhongli",
+Albedo
+Aloy
+Amber
+AmberCN
+Ayaka
+Ayato
+Barbara
+BarbaraSummertime
+Beidou
+Bennett
+Candace
+Childe
+Chongyun
+Collei
+Cyno
+Diluc
+DilucFlamme
+Diona
+Dori
+Eula
+Fischl
+FischlHighness
+Ganyu
+Gorou
+Heizou
+HuTao
+Itto
+Jean
+JeanCN
+JeanSea
+Kaeya
+Kazuha
+Keqing
+KeqingOpulent
+Klee
+Kokomi
+KujouSara
+Layla
+Lisa
+Mona
+MonaCN
+Nahida
+Nilou
+Ningguang
+NingguangOrchid
+Noelle
+Qiqi
+RaidenShogun
+Razor
+Rosaria
+RosariaCN
+Sayu
+Shenhe
+Shinobu
+Sucrose
+Thoma
+Tighnari
+TravelerBoy
+TravelerGirl
+Venti
+Xiangling
+Xiao
+Xingqiu
+Xinyan
+Yae
+Yanfei
+Yelan
+Yoimiya
+YunJin
+Zhongli
