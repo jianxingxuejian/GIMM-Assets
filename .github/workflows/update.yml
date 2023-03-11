@@ -1,0 +1,53 @@
+name: Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Pnpm setup
+      uses: pnpm/action-setup@v2
+      with:
+        version: 7
+    
+    - name: Node.js setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
+
+    - name: Rust setup
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          profile: minimal
+
+    - name: Install dependencies
+      run: pnpm install
+      working-directory: scripts
+
+    - name: Run script
+      run: |
+        cd scripts
+        pnpm convert
+        git clone https://github.com/jianxingxuejian/GIMM.git
+        cp -R ./dist/constant.rs ./GIMM/src-tauri/src/cmd/categories/constant.rs
+        cd GIMM/src-tauri && cargo fmt -- --check
+        git add .
+        git commit -m "update categories data"
+
+    - name:  Create PR to GIMM
+      uses: peter-evans/create-pull-request@v4
+      with:
+          title: "Update categories data"
+          body: "Automatic pull request from GIMM Assets Action."
+          target: main
+          token: ${{ secrets.GITHUB_TOKEN }}
